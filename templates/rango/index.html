@@ -13,6 +13,7 @@
         {% else %}
             hey there partner!
         {% endif %}
+        <p>visits: {{ visits }}</p>
     </div>
 
     <div>
@@ -30,7 +31,7 @@
         {% endif %}
     </div>
     <div>
-        <h2>Most Liked Pages</h2>
+        <h2>Most Viewed Pages</h2>
         {% if pages %}
         <ul>
             {% for page in pages%}
